@@ -52,12 +52,12 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar
+      {/* <Sidebar
         profile={profile}
         onAddProfile={onAddProfile}
         activeProfile={activeProfile}
         setActiveProfile={setActiveProfile}
-      />
+      /> */}
       <Main activeProfile={getActiveProfile()} onUpdateProfile={onUpdateProfile} />
     </div>
   );
